@@ -1,0 +1,122 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Kanit:wght@600&family=Nunito:ital,wght@1,900&family=Poppins:wght@500&family=Rubik+Maps&family=Vina+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+body{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ font-family: poppins;
+}
+
+.main{
+   width: 500px;
+   height: 550px;
+   background-color: rgb(4 27 55);
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    border-radius: 10px;
+    position: relative;
+h1{
+    background-color: #070a2e;
+    display: inline;
+    border-radius: 24px;
+    padding: 16px;
+    font-family: poppins;
+
+}
+
+.choices{
+    width: 111px;
+    height: 111px;
+    cursor: pointer;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s ease-in-out;
+}
+.choices:hover{
+    background-color: white;
+}
+img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.choice-box{
+    width: 500px;
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.score-card{
+    width: 500px;
+    height: 100px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 110px;
+}
+
+#user-score{
+    width: 50px;
+    height: 55px;
+    line-height: 55px;
+    padding:5px;
+    background-color: #070a2e;
+    border-radius: 12px;
+    font-size: 20px;
+}
+
+#comp-score{
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    padding:5px;
+    border-radius: 12px;
+    background-color: #070a2e;
+    font-size: 20px;
+    
+}
+#user-count{
+    font-size: 30px;
+}
+#comp-count{
+    font-size: 30px;
+}
+.msg{
+    margin-top: 100px;
+    
+}
+button{
+    font-size: 25px;
+    padding: 10px 20px;
+    border-radius: 15px;
+    background-color: #070a2e;
+    color: white;
+    border: none;
+    font-weight: bold;
+    transition: all 0.2s ease-in-out;
+}
+button:hover{
+    opacity: 0.7;
+}
+
+
+
+
